@@ -1,0 +1,69 @@
+[
+  {
+    "category": "开发工具",
+    "layout": "tab",  
+    "icon": "fa-tools",
+    "children": [
+      {
+        "category2": "代码托管",
+        "items": [
+          {
+            "title": "GitHub",
+            "url": "https://github.com",
+            "desc": "全球最大开源社区",
+            "icon": "https://github.githubassets.com/favicons/favicon.svg"
+          }
+        ]
+      },
+      {
+        "category2": "文档资源",
+        "items": [
+          {
+            "title": "MDN",
+            "url": "https://developer.mozilla.org",
+            "desc": "前端开发文档",
+            "icon": "https://developer.mozilla.org/favicon.ico"
+          }
+        ]
+      },
+      {
+        "category2": "测试资源2",
+        "items": [
+          {
+            "title": "百度",
+            "url": "https://www.baidu.com",
+            "desc": "前端开发文档",
+            "icon": "https://developer.mozilla.org/favicon.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "AI 工具",
+    "icon": "fa-paint-brush",
+    "layout": "vertical",
+    "children": [
+      {
+        "category2": "AI 聊天",
+        "items": [
+          {
+            "title": "ChatGPT",
+            "url": "https://chat.openai.com",
+            "desc": "AI 聊天助手"
+          }
+        ]
+      },
+      {
+        "category2": "AI 绘图",
+        "items": [
+          {
+            "title": "ChatGPT",
+            "url": "https://chat.openai.com",
+            "desc": "AI 聊天助手"
+          }
+        ]
+      }
+    ]
+  }
+]

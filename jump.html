@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>跳转中...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/bootstrap4.min.css">
+  <style>
+    body {
+      background: linear-gradient(to right, #1f1c2c, #928dab);
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .jump-container {
+      max-width: 600px;
+      margin: 5rem auto;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+      backdrop-filter: blur(10px);
+      text-align: center;
+    }
+
+    .btn-success {
+      background-color: #2ecc71;
+      border: none;
+    }
+
+    .btn-success:hover {
+      background-color: #27ae60;
+    }
+
+    a.related-link {
+      display: block;
+      margin: 0.5rem 0;
+      color: #ecf0f1;
+      text-decoration: none;
+    }
+
+    a.related-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?8006116a61e3e6c85c92e8d316fc13b9";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+</head>
+<body>
+  <div class="jump-container">
+    <h3 class="mb-4">即将跳转到目标网站</h3>
+    <p id="target-name" class="lead"></p>
+    <a id="go-btn" class="btn btn-success mt-3">点击直达</a>
+
+    <hr class="bg-light">
+    <h5 class="mt-4">相关导航推荐</h5>
+    <div id="related-links" class="mt-3"></div>
+  </div>
+
+  <script src="assets/js/jquery3.min.js"></script>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const encoded = params.get('target');
+    const title = params.get('title') || '未知网站';
+
+    // 提取网站名称（不解密 URL）
+    function extractName(encodedUrl) {
+      try {
+        const decoded = atob(encodedUrl);
+        const urlObj = new URL(decoded);
+        return urlObj.hostname;
+      } catch (e) {
+        return '未知网站';
+      }
+    }
+
+    $('#target-name').text(decodeURIComponent(title));
+
+    $('#go-btn').on('click', function (e) {
+      e.preventDefault();
+      try {
+        const decoded = atob(encoded);
+        window.open(decoded, '_blank');
+      } catch (err) {
+        alert('跳转失败，链接无效');
+      }
+    });
+
+    // 加载推荐导航
+    $.getJSON('data/sites.json', function (data) {
+      let html = '';
+      data.forEach(cat => {
+        cat.items.forEach(item => {
+          const encodedUrl = btoa(item.url);
+          if (encodedUrl !== encoded) {
+            html += `<a href="jump.html?target=${encodedUrl}&title=${encodeURIComponent(item.title)}" class="related-link">${item.title}</a>`;
+          }
+        });
+      });
+      $('#related-links').html(html);
+    });
+  </script>
+</body>
+</html>

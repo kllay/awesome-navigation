@@ -1,0 +1,14 @@
+[
+  {
+    "title": "GitHub",
+    "url": "https://github.com",
+    "desc": "全球最大开源社区",
+    "icon": "https://github.githubassets.com/favicons/favicon.svg"
+  },
+  {
+    "title": "MDN",
+    "url": "https://developer.mozilla.org",
+    "desc": "前端开发文档",
+    "icon": "https://developer.mozilla.org/favicon.ico"
+  }
+]

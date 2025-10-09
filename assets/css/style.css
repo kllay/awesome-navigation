@@ -1,0 +1,255 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#content-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 全局字体与背景 */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #1f1c2c, #928dab);
+  color: #fff;
+}
+
+/* 左侧导航栏 */
+.sidebar {
+  width: 250px;
+  min-height: 100vh;
+  position: fixed;
+  overflow-y: auto;
+  background: #2c3e50;
+  box-shadow: 2px 0 10px rgba(0,0,0,0.3);
+}
+
+.sidebar h4 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.sidebar ul > li {
+  margin-bottom: 1rem;
+}
+
+.sidebar a {
+  color: #ecf0f1;
+  text-decoration: none;
+  display: block;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.sidebar a:hover {
+  background: #34495e;
+}
+
+/* 右侧内容区 */
+main {
+  margin-left: 260px;
+  padding: 2rem;
+}
+
+/* 卡片样式 */
+section {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s;
+}
+
+section:hover {
+  transform: translateY(-5px);
+}
+
+/* 按钮样式 */
+.btn-primary {
+  background: #3498db;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: #2980b9;
+}
+
+.card{
+    background-color: transparent !important;
+}
+
+.site-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  transition: transform 0.3s, background 0.3s;
+  backdrop-filter: blur(10px);
+}
+
+.site-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+
+.sidebar ul > li > strong {
+  cursor: pointer;
+  display: block;
+  margin-top: 1rem;
+}
+
+.sidebar ul > li > ul {
+  padding-left: 1rem;
+}
+
+.sidebar ul > li.open > ul {
+  display: block;
+}
+
+.site-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  transition: transform 0.3s;
+  backdrop-filter: blur(10px);
+}
+
+.site-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.sub-menu {
+  padding-left: 1rem;
+}
+
+.sub-menu li {
+  margin-bottom: 0.5rem;
+}
+
+.toggle-group {
+  cursor: pointer;
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.nav-link-sub {
+  color: #ecf0f1;
+  text-decoration: none;
+  display: block;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.nav-link-sub:hover {
+  background: #34495e;
+}
+
+.sub-menu {
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.sub-menu li {
+  margin-bottom: 0.25rem;
+}
+
+.toggle-group {
+  font-weight: bold;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.toggle-group.active {
+  color: #00ffff;
+}
+
+.nav-link-sub.active {
+  background-color: #17a2b8;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+
+.nav-link-sub.active {
+  background-color: #17a2b8;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+#multi-search .form-check-inline {
+  margin-right: 1rem;
+}
+#multi-search-result .search-result a {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #007bff;
+}
+
+footer {
+  background-color: #222;
+  color: #ccc;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+
+#back-to-top {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  z-index: 999;
+  display: none;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+#back-to-top:hover {
+  background-color: #0056b3;
+}
+
+
+.toggle-group {
+  cursor: pointer;
+  padding: 0.5rem 0;
+  font-weight: bold;
+}
+.toggle-group:hover {
+  color: #17a2b8;
+}
+
+
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .sidebar {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+  }
+
+  main {
+    margin-left: 0;
+  }
+}
