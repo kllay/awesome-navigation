@@ -204,9 +204,12 @@ function renderSubLayout(group) {
       `);
       $('#sub-tab-content').append(`
         <div class="tab-pane fade ${j === 0 ? 'show active' : ''}" id="${subId}">
-          ${renderCards(sub.items)}
+          <div class="row">
+            ${renderCards(sub.items)}
+          </div>
         </div>
       `);
+
     } else {
       $('#sub-tab-content').append(`
         <section id="${subId}" class="mb-5">

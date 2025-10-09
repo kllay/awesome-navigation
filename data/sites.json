@@ -8,10 +8,22 @@
         "category2": "代码托管",
         "items": [
           {
-            "title": "GitHub",
-            "url": "https://github.com",
+            "title": "GitHub Pages",
+            "url": "https://pages.github.com/",
             "desc": "全球最大开源社区",
             "icon": "https://github.githubassets.com/favicons/favicon.svg"
+          },
+          {
+            "title": "vercel",
+            "url": "https://vercel.com/",
+            "desc": "免费的前端部署平台",
+            "icon": "assets/img/verceldefault.png"
+          },
+          {
+            "title": "cloudflare",
+            "url": "https://pages.cloudflare.com/",
+            "desc": "免费的前端部署平台",
+            "icon": "https://pages.cloudflare.com/resources/logo/logo.svg"
           }
         ]
       },
@@ -49,6 +61,11 @@
         "items": [
           {
             "title": "ChatGPT",
+            "url": "https://chat.openai.com",
+            "desc": "AI 聊天助手"
+          },
+           {
+            "title": "ChatGPT22",
             "url": "https://chat.openai.com",
             "desc": "AI 聊天助手"
           }
