@@ -229,6 +229,10 @@ footer {
   background-color: #0056b3;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 .toggle-group {
   cursor: pointer;

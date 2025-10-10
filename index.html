@@ -112,8 +112,16 @@ function renderSidebar(data) {
 
 
     group.children.forEach((sub, j) => {
-      html += `<li><a href="#"  class="nav-link-sub" data-group="${i}" data-sub="${j}"  data-tab="sub-${group.category}-${j}">${sub.category2}</a></li>`;
+      const isVertical = group.layout === 'vertical';
+      const subId = `sub-${group.category}-${j}`.replace(/\s+/g, '-').toLowerCase();
+      const anchorId = isVertical ? `#${subId}` : '#';
+      html += `<li>
+        <a href="${anchorId}" class="nav-link-sub" data-group="${i}" data-sub="${j}" data-tab="${subId}">
+          ${sub.category2}
+        </a>
+      </li>`;
     });
+
     html += `</ul></li>`;
   });
   $('#nav-menu').html(html);
@@ -140,7 +148,7 @@ $('.toggle-group').on('click', function () {
 
   // 二级分类点击跳转
   $('.nav-link-sub').on('click', function (e) {
-    e.preventDefault();
+
     const groupIndex = $(this).data('group');
     const subIndex = $(this).data('sub');
     const layout = siteData[groupIndex].layout;
@@ -152,6 +160,7 @@ $('.toggle-group').on('click', function () {
   $(this).addClass('active');
 
     if (layout === 'tab') {
+      e.preventDefault();
       // 清除所有 tab-link 和 tab-pane 的激活状态
       $('#sub-tab-nav .nav-link').removeClass('active');
       $('#sub-tab-content .tab-pane').removeClass('active show');

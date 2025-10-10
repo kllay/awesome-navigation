@@ -123,6 +123,30 @@
             "url": "https://codegeex.cn/",
             "desc": "codegeex ai开发工具",
             "icon": "https://codegeex.cn/static/logo_new.272d6ea0.svg"
+          },
+           {
+            "title": "cursor",
+            "url": "https://cursor.com/",
+            "desc": "cursor ai开发工具",
+            "icon": "assets/img/cursor.svg"
+          },
+           {
+            "title": "codegeex",
+            "url": "https://codegeex.cn/",
+            "desc": "codegeex ai开发工具",
+            "icon": "https://codegeex.cn/static/logo_new.272d6ea0.svg"
+          },
+           {
+            "title": "codegeex",
+            "url": "https://codegeex.cn/",
+            "desc": "codegeex ai开发工具",
+            "icon": "https://codegeex.cn/static/logo_new.272d6ea0.svg"
+          },
+           {
+            "title": "claude",
+            "url": "https://www.claude.com/product/claude-code",
+            "desc": "claude ai开发工具",
+            "icon": "assets/img/claude.svg"
           }
         ]
       }
@@ -183,6 +207,12 @@
             "url": "https://www.tiangong.cn/",
             "desc": "tiangong聊天助手",
             "icon": "assets/img/tiangong.svg"
+          },
+           {
+            "title": "copilot",
+            "url": "https://github.com/copilot",
+            "desc": "copilot聊天助手",
+            "icon": "https://github.githubassets.com/favicons/favicon.svg"
           }
         ]
       },
@@ -190,16 +220,154 @@
         "category2": "AI 绘图",
         "items": [
           {
-            "title": "ChatGPT",
-            "url": "https://chat.openai.com",
-            "desc": "AI 聊天助手",
-            "icon": "assets/img/chatgpt.png"
+            "title": "midjourney",
+            "url": "https://www.midjourney.com/",
+            "desc": "AI 绘图工具",
+            "icon": "assets/img/midjourney.png"
           },
            {
             "title": "ChatGPT",
             "url": "https://chat.openai.com",
-            "desc": "AI 聊天助手",
+            "desc": "AI 绘图工具",
             "icon": "assets/img/chatgpt.png"
+          },
+           {
+            "title": "leonardo",
+            "url": "https://leonardo.ai/",
+            "desc": "AI 绘图工具",
+            "icon": "assets/img/leonardo.png"
+          },
+           {
+            "title": "klingai",
+            "url": "https://app.klingai.com/cn/",
+            "desc": "AI 可灵国外 绘图工具",
+            "icon": "assets/img/kelingwai.png"
+          }
+        ]
+      },
+      {
+        "category2": "AI 视频",
+        "items": [
+          {
+            "title": "lumalabs",
+            "url": "https://lumalabs.ai/",
+            "desc": "AI 视频工具",
+            "icon": "assets/img/lumaai.png"
+          },
+           {
+            "title": "sora",
+            "url": "https://openai.com/sora/",
+            "desc": "AI 视频工具",
+            "icon": "assets/img/chatgpt.png"
+          },
+           {
+            "title": "d-id",
+            "url": "https://www.d-id.com/",
+            "desc": "AI 视频工具",
+            "icon": "assets/img/d-ids.png"
+          },
+           {
+            "title": "runwayml",
+            "url": "https://runwayml.com/",
+            "desc": "runwayml 视频工具",
+            "icon": "assets/img/runwayml.png"
+          }
+        ]
+      },
+      {
+        "category2": "AI 语音",
+        "items": [
+          {
+            "title": "suno",
+            "url": "https://suno.com/home",
+            "desc": "AI 音乐工具",
+            "icon": "assets/img/suno.png"
+          },
+           {
+            "title": "海螺ai音乐",
+            "url": "https://www.minimaxi.com/audio",
+            "desc": "AI 音乐工具",
+            "icon": "assets/img/hailuoai.svg"
+          },
+           {
+            "title": "网易天音",
+            "url": "https://tianyin.music.163.com/#/",
+            "desc": "网易天音",
+            "icon": "https://p5.music.126.net/obj/wonDlsKUwrLClGjCm8Kx/…74/1984/fca0/84e5f525bacd19f803f7ea0e19222e6a.png"
+          },
+           {
+            "title": "musick ai",
+            "url": "https://musick.ai/",
+            "desc": "AI 音乐工具",
+            "icon": "assets/img/musickai.png"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "category": "自媒体工具",
+    "icon": "fa-film",
+    "layout": "tab",
+    "children": [
+      {
+        "category2": "热点新闻",
+        "items": [
+          {
+            "title": "tophub",
+            "url": "https://tophub.today/",
+            "desc": "今日热榜",
+            "icon": "https://file.ipadown.com/tophub/assets/images/logo.png"
+          },
+           {
+            "title": "duomoyu",
+            "url": "https://duomoyu.com/hot-list",
+            "desc": "多摸鱼热点新闻"
+          }
+        ]
+      },{
+        "category2": "媒体平台",
+        "items": [
+          {
+            "title": "公众号平台",
+            "url": "https://mp.weixin.qq.com/",
+            "desc": "公众号管理平台",
+            "icon": "assets/img/gongzhonghao.svg"
+          },
+           {
+            "title": "百家号平台",
+            "url": "https://baijiahao.baidu.com/",
+            "desc": "百家号管理平台",
+            "icon": "https://pic.rmb.bdstatic.com/fca6442e33e382607aca01ef5cf371e6.svg"
+          },
+           {
+            "title": "视频号",
+            "url": "https://channels.weixin.qq.com/login.html",
+            "desc": "视频号 管理平台",
+            "icon": "https://res.wx.qq.com/t/fed_upload/475e6b94-d4ef-4393-bb05-2ca0d71f5ada/logo.png"
+          },
+           {
+            "title": "小红书",
+            "url": "https://www.xiaohongshu.com/explore",
+            "desc": "小红书发布平台",
+            "icon": "assets/img/xiaohongshu.png"
+          }
+        ]
+      },
+      {
+        "category2": "小说推文",
+        "items": [
+          {
+            "title": "番茄小说",
+            "url": "https://kol.fanqieopen.com/page/task",
+            "desc": "番茄小说",
+            "icon": "assets/img/fanqiedaren.png"
+          },
+           {
+            "title": "七猫小说",
+            "url": "https://kol.wtzw.com/login",
+            "desc": "七猫小说推文",
+            "icon": "https://kol.wtzw.com/assets/logo.ec00e975.png"
           }
         ]
       }
