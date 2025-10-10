@@ -1,4 +1,51 @@
 [
+    {
+    "category": "热门推荐",
+    "icon": " fa-bomb",
+    "layout": "vertical",
+    "children": [
+      {
+        "category2": "AI热门工具",
+        "items": [
+          {
+            "title": "ChatGPT",
+            "url": "https://chat.openai.com",
+            "desc": "AI 聊天助手",
+            "icon": "assets/img/chatgpt.png"
+          },
+           {
+            "title": "copilot",
+            "url": "https://copilot.microsoft.com/",
+            "desc": "微软AI 聊天助手",
+            "icon": "assets/img/copilot.svg"
+          },
+           {
+            "title": "doubao",
+            "url": "https://www.doubao.com/chat",
+            "desc": "豆包 聊天助手",
+            "icon": "assets/img/doubao.png"
+          }
+        ]
+      },
+      {
+        "category2": "剪辑热门工具",
+        "items": [
+          {
+            "title": "capcut",
+            "url": "https://www.capcut.com/",
+            "desc": "capcut 剪辑工具",
+            "icon": "assets/img/capcut.svg"
+          },
+           {
+            "title": "filmora",
+            "url": "https://filmora.wondershare.com/",
+            "desc": "filmora 剪辑工具",
+            "icon": "https://neveragain.allstatics.com/2019/assets/icon/logo/filmora-square.svg"
+          }
+        ]
+      }
+    ]
+  },
   {
     "category": "开发工具",
     "layout": "tab",  
@@ -24,6 +71,18 @@
             "url": "https://pages.cloudflare.com/",
             "desc": "免费的前端部署平台",
             "icon": "https://pages.cloudflare.com/resources/logo/logo.svg"
+          },
+          {
+            "title": "cloudbase",
+            "url": "https://webify.cloudbase.net/",
+            "desc": "云开发 Webify免费的前端部署平台",
+            "icon": "https://main.qcloudimg.com/raw/3b942431a6ef465d3b8369969e861c0f/favicon.png"
+          },
+          {
+            "title": "netlify",
+            "url": "https://app.netlify.com/",
+            "desc": "netlify免费的前端部署平台",
+            "icon": "assets/img/netlify.svg"
           }
         ]
       },
@@ -39,13 +98,31 @@
         ]
       },
       {
-        "category2": "测试资源2",
+        "category2": "ai开发工具",
         "items": [
           {
-            "title": "百度",
-            "url": "https://www.baidu.com",
-            "desc": "前端开发文档",
-            "icon": "https://developer.mozilla.org/favicon.ico"
+            "title": "trae",
+            "url": "https://www.trae.ai/",
+            "desc": "trae ai字节开发工具",
+            "icon": "assets/img/traeai.svg"
+          },
+           {
+            "title": "CodeBuddyIDE",
+            "url": "https://copilot.tencent.com/ide",
+            "desc": "CodeBuddyIDE 腾讯开发工具",
+            "icon": "https://codebuddy-1328495429.cos.accelerate.myqcloud.com/web/ide/codeBuddy.png"
+          },
+           {
+            "title": "lingma",
+            "url": "https://lingma.aliyun.com/",
+            "desc": "通义灵码 ai开发工具",
+            "icon": "https://img.alicdn.com/imgextra/i1/O1CN01XfhCA71aO9ZI3IrM8_!!6000000003319-2-tps-260-66.png"
+          },
+           {
+            "title": "codegeex",
+            "url": "https://codegeex.cn/",
+            "desc": "codegeex ai开发工具",
+            "icon": "https://codegeex.cn/static/logo_new.272d6ea0.svg"
           }
         ]
       }
@@ -62,12 +139,50 @@
           {
             "title": "ChatGPT",
             "url": "https://chat.openai.com",
-            "desc": "AI 聊天助手"
+            "desc": "AI 聊天助手",
+            "icon": "assets/img/chatgpt.png"
           },
            {
-            "title": "ChatGPT22",
-            "url": "https://chat.openai.com",
-            "desc": "AI 聊天助手"
+            "title": "copilot",
+            "url": "https://copilot.microsoft.com/",
+            "desc": "微软AI 聊天助手",
+            "icon": "assets/img/copilot.svg"
+          },
+           {
+            "title": "grok",
+            "url": "https://grok.com/",
+            "desc": "grok x聊天助手",
+            "icon": "assets/img/gork.svg"
+          },
+           {
+            "title": "deepseek",
+            "url": "https://chat.deepseek.com/",
+            "desc": "deepseek 聊天助手",
+            "icon": "assets/img/deepseek.png"
+          },
+           {
+            "title": "gemini",
+            "url": "https://gemini.google.com/",
+            "desc": "gemini google 聊天助手",
+            "icon": "assets/img/gemini.png"
+          },
+           {
+            "title": "doubao",
+            "url": "https://www.doubao.com/chat",
+            "desc": "豆包 聊天助手",
+            "icon": "assets/img/doubao.png"
+          },
+           {
+            "title": "kimi",
+            "url": "https://www.kimi.com/",
+            "desc": "kimi聊天助手",
+            "icon": "assets/img/kimi.png"
+          },
+           {
+            "title": "tiangong",
+            "url": "https://www.tiangong.cn/",
+            "desc": "tiangong聊天助手",
+            "icon": "assets/img/tiangong.svg"
           }
         ]
       },
@@ -77,7 +192,14 @@
           {
             "title": "ChatGPT",
             "url": "https://chat.openai.com",
-            "desc": "AI 聊天助手"
+            "desc": "AI 聊天助手",
+            "icon": "assets/img/chatgpt.png"
+          },
+           {
+            "title": "ChatGPT",
+            "url": "https://chat.openai.com",
+            "desc": "AI 聊天助手",
+            "icon": "assets/img/chatgpt.png"
           }
         ]
       }
