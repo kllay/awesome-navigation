@@ -1,6 +1,12 @@
 
 
 
+$(function () {
+  $('[class="desc-limit"]').tooltip({
+    placement: 'top',
+    trigger: 'hover'
+  });
+});
 
 
 
