@@ -87,6 +87,11 @@ section:hover {
   text-overflow: ellipsis;
 }
 
+canvas#mouse-trail-canvas {
+  width: 100vw;
+  height: 100vh;
+}
+
 
 /* 按钮样式 */
 .btn-primary {

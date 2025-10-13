@@ -1,0 +1,108 @@
+[
+    {
+    "category": "开发工具",
+    "layout": "tab",  
+    "icon": "fa-tools",
+    "children": [
+      {
+        "category2": "代码托管",
+        "items": [
+          {
+            "title": "GitHub Pages",
+            "url": "https://pages.github.com/",
+            "desc": "全球最大开源社区",
+            "icon": "https://github.githubassets.com/favicons/favicon.svg"
+          },
+          {
+            "title": "vercel",
+            "url": "https://vercel.com/",
+            "desc": "免费的前端部署平台",
+            "icon": "assets/img/verceldefault.png"
+          },
+          {
+            "title": "cloudflare",
+            "url": "https://pages.cloudflare.com/",
+            "desc": "免费的前端部署平台",
+            "icon": "https://pages.cloudflare.com/resources/logo/logo.svg"
+          },
+          {
+            "title": "cloudbase",
+            "url": "https://webify.cloudbase.net/",
+            "desc": "云开发 Webify免费的前端部署平台",
+            "icon": "https://main.qcloudimg.com/raw/3b942431a6ef465d3b8369969e861c0f/favicon.png"
+          },
+          {
+            "title": "netlify",
+            "url": "https://app.netlify.com/",
+            "desc": "netlify免费的前端部署平台",
+            "icon": "assets/img/netlify.svg"
+          }
+        ]
+      },
+      {
+        "category2": "文档资源",
+        "items": [
+          {
+            "title": "MDN",
+            "url": "https://developer.mozilla.org",
+            "desc": "前端开发文档",
+            "icon": "https://developer.mozilla.org/favicon.ico"
+          }
+        ]
+      },
+      {
+        "category2": "ai开发工具",
+        "items": [
+          {
+            "title": "trae",
+            "url": "https://www.trae.ai/",
+            "desc": "trae ai字节开发工具",
+            "icon": "assets/img/traeai.svg"
+          },
+           {
+            "title": "CodeBuddyIDE",
+            "url": "https://copilot.tencent.com/ide",
+            "desc": "CodeBuddyIDE 腾讯开发工具",
+            "icon": "https://codebuddy-1328495429.cos.accelerate.myqcloud.com/web/ide/codeBuddy.png"
+          },
+           {
+            "title": "lingma",
+            "url": "https://lingma.aliyun.com/",
+            "desc": "通义灵码 ai开发工具",
+            "icon": "https://img.alicdn.com/imgextra/i1/O1CN01XfhCA71aO9ZI3IrM8_!!6000000003319-2-tps-260-66.png"
+          },
+           {
+            "title": "codegeex",
+            "url": "https://codegeex.cn/",
+            "desc": "codegeex ai开发工具",
+            "icon": "https://codegeex.cn/static/logo_new.272d6ea0.svg"
+          },
+           {
+            "title": "cursor",
+            "url": "https://cursor.com/",
+            "desc": "cursor ai开发工具",
+            "icon": "assets/img/cursor.svg"
+          },
+           {
+            "title": "codegeex",
+            "url": "https://codegeex.cn/",
+            "desc": "codegeex ai开发工具",
+            "icon": "https://codegeex.cn/static/logo_new.272d6ea0.svg"
+          },
+           {
+            "title": "codegeex",
+            "url": "https://codegeex.cn/",
+            "desc": "codegeex ai开发工具",
+            "icon": "https://codegeex.cn/static/logo_new.272d6ea0.svg"
+          },
+           {
+            "title": "claude",
+            "url": "https://www.claude.com/product/claude-code",
+            "desc": "claude ai开发工具",
+            "icon": "assets/img/claude.svg"
+          }
+        ]
+      }
+    ]
+  }
+]

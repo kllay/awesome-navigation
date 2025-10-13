@@ -1,0 +1,265 @@
+[
+  {
+    "category": "AI 工具",
+    "icon": "fa-paint-brush",
+    "layout": "vertical",
+    "children": [
+      {
+        "category2": "AI 聊天",
+        "items": [
+          {
+            "title": "ChatGPT",
+            "url": "https://chat.openai.com",
+            "desc": "AI 聊天助手",
+            "icon": "assets/img/chatgpt.png"
+          },
+           {
+            "title": "copilot",
+            "url": "https://copilot.microsoft.com/",
+            "desc": "微软AI 聊天助手",
+            "icon": "assets/img/copilot.svg"
+          },
+           {
+            "title": "grok",
+            "url": "https://grok.com/",
+            "desc": "grok x聊天助手",
+            "icon": "assets/img/gork.svg"
+          },
+           {
+            "title": "deepseek",
+            "url": "https://chat.deepseek.com/",
+            "desc": "deepseek 聊天助手",
+            "icon": "assets/img/deepseek.png"
+          },
+           {
+            "title": "gemini",
+            "url": "https://gemini.google.com/",
+            "desc": "gemini google 聊天助手",
+            "icon": "assets/img/gemini.png"
+          },
+           {
+            "title": "doubao",
+            "url": "https://www.doubao.com/chat",
+            "desc": "豆包 聊天助手",
+            "icon": "assets/img/doubao.png"
+          },
+           {
+            "title": "kimi",
+            "url": "https://www.kimi.com/",
+            "desc": "kimi聊天助手",
+            "icon": "assets/img/kimi.png"
+          },
+           {
+            "title": "tiangong",
+            "url": "https://www.tiangong.cn/",
+            "desc": "tiangong聊天助手",
+            "icon": "assets/img/tiangong.svg"
+          },
+           {
+            "title": "copilot",
+            "url": "https://github.com/copilot",
+            "desc": "copilot聊天助手",
+            "icon": "https://github.githubassets.com/favicons/favicon.svg"
+          },
+           {
+            "title": "智谱清言",
+            "url": "https://chatglm.cn/main/alltoolsdetail?lang=zh",
+            "desc": "智谱清言  聊天助手",
+            "icon": "assets/img/zhipuqingyan.png"
+          },
+           {
+            "title": "腾讯混元",
+            "url": "https://hunyuan.tencent.com/",
+            "desc": "腾讯混元  聊天助手",
+            "icon": "https://cdn-portal.hunyuan.tencent.com/public/074e38834bdc4e9cf017.png"
+          },
+           {
+            "title": "通义千问",
+            "url": "https://www.tongyi.com/",
+            "desc": "通义千问  聊天助手",
+            "icon": "https://img.alicdn.com/imgextra/i4/O1CN01lAlxMo1LOs0lFrZG7_!!6000000001290-55-tps-33-53.svg"
+          },
+           {
+            "title": "紫东太初",
+            "url": "https://taichu-web.ia.ac.cn/#/login",
+            "desc": "紫东太初  中国科学院自动化研究所和武汉人工智能研究院推出新一代多模态大模型，支持多轮问答、文本创作、图像生成、3D理解、信号分析等全面问答任务，拥有更强的认知、理解、创作能力，带来全新互动体验。",
+            "icon": "assets/img/zidongtaichu.png"
+          },
+           {
+            "title": "百川智能",
+            "url": "https://platform.baichuan-ai.com/homePage",
+            "desc": "百川智能  聊天助手",
+            "icon": "https://platform.baichuan-ai.com/_next/static/media/baichuan-logo.3cf90442.png"
+          }
+        ]
+      },
+      {
+        "category2": "AI 绘图",
+        "items": [
+          {
+            "title": "midjourney",
+            "url": "https://www.midjourney.com/",
+            "desc": "AI 绘图工具",
+            "icon": "assets/img/midjourney.png"
+          },
+           {
+            "title": "ChatGPT",
+            "url": "https://chat.openai.com",
+            "desc": "AI 绘图工具",
+            "icon": "assets/img/chatgpt.png"
+          },
+           {
+            "title": "leonardo",
+            "url": "https://leonardo.ai/",
+            "desc": "AI 绘图工具",
+            "icon": "assets/img/leonardo.png"
+          },
+           {
+            "title": "klingai",
+            "url": "https://app.klingai.com/cn/",
+            "desc": "AI 可灵国外 绘图工具",
+            "icon": "assets/img/kelingwai.png"
+          },
+          {
+            "title": "Stable Diffusion",
+            "url": "https://stablediffusionweb.com/",
+            "desc": "AI 绘图工具",
+            "icon": "assets/img/stablediffusion.png"
+          },
+          {
+            "title": "Stable Diffusion webui",
+            "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+            "desc": "AI 绘图工具",
+            "icon": "https://github.githubassets.com/favicons/favicon.png"
+          },
+          {
+            "title": "stable-diffusion2.1",
+            "url": "https://huggingface.co/spaces/stabilityai/stable-diffusion",
+            "desc": "AI 绘图工具",
+            "icon": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
+          },
+          {
+            "title": "adobe",
+            "url": "https://www.adobe.com/products/firefly.html",
+            "desc": "AI 绘图工具 注意国内不行",
+            "icon": "https://www.adobe.com/federal/assets/svgs/adobe-logo.svg"
+          }
+        ]
+      },
+      {
+        "category2": "AI 视频",
+        "items": [
+          {
+            "title": "lumalabs",
+            "url": "https://lumalabs.ai/",
+            "desc": "AI 视频工具",
+            "icon": "assets/img/lumaai.png"
+          },
+           {
+            "title": "sora",
+            "url": "https://openai.com/sora/",
+            "desc": "AI 视频工具",
+            "icon": "assets/img/chatgpt.png"
+          },
+           {
+            "title": "d-id",
+            "url": "https://www.d-id.com/",
+            "desc": "AI 视频工具",
+            "icon": "assets/img/d-ids.png"
+          },
+           {
+            "title": "runwayml",
+            "url": "https://runwayml.com/",
+            "desc": "runwayml 视频工具",
+            "icon": "assets/img/runwayml.png"
+          },
+           {
+            "title": "veo google",
+            "url": "https://aistudio.google.com/models/veo-3",
+            "desc": "Veo 3 可让您为您的创作添加音效、环境噪音甚至对话 - 本地生成所有音频。它还提供一流的质量。",
+            "icon": "assets/img/googleveo3.png"
+          },
+           {
+            "title": "heygen",
+            "url": "https://www.heygen.com/",
+            "desc": "heygen 视频工具",
+            "icon": "assets/img/heygen.png"
+          }
+        ]
+      },
+      {
+        "category2": "AI 语音",
+        "items": [
+          {
+            "title": "suno",
+            "url": "https://suno.com/home",
+            "desc": "AI 音乐工具",
+            "icon": "assets/img/suno.png"
+          },
+           {
+            "title": "海螺ai音乐",
+            "url": "https://www.minimaxi.com/audio",
+            "desc": "AI 音乐工具",
+            "icon": "assets/img/hailuoai.svg"
+          },
+           {
+            "title": "网易天音",
+            "url": "https://tianyin.music.163.com/#/",
+            "desc": "网易天音",
+            "icon": "https://p5.music.126.net/obj/wonDlsKUwrLClGjCm8Kx/…74/1984/fca0/84e5f525bacd19f803f7ea0e19222e6a.png"
+          },
+           {
+            "title": "musick ai",
+            "url": "https://musick.ai/",
+            "desc": "AI 音乐工具",
+            "icon": "assets/img/musickai.png"
+          }
+        ]
+      },
+      {
+        "category2": "AI 工作空间",
+        "items": [
+          {
+            "title": "coze",
+            "url": "https://www.coze.cn/",
+            "desc": "AI 扣子空间",
+            "icon": "assets/img/cozes.png"
+          },
+           {
+            "title": "notion",
+            "url": "https://www.notion.com/",
+            "desc": "AI 音乐工具",
+            "icon": "assets/img/notions.svg"
+          }
+        ]
+      },
+      {
+        "category2": "AI 办公",
+        "items": [
+          {
+            "title": "feishu",
+            "url": "https://www.feishu.cn/product/minutes",
+            "desc": "飞书妙记 会议纪要",
+            "icon": "assets/img/feishumiaoji.png"
+          }
+        ]
+      },
+      {
+        "category2": "AI 搜索",
+        "items": [
+          {
+            "title": "ai秘塔AI搜索",
+            "url": "https://metaso.cn/",
+            "desc": "秘塔AI搜索",
+            "icon": "assets/img/mitaai.png"
+          },  {
+            "title": "perplexity AI搜索",
+            "url": "https://www.perplexity.ai/",
+            "desc": "是一家美国私营软件公司，提供网络搜索引擎来处理用户查询并综合响应。",
+            "icon": "assets/img/perplexity.png"
+          }
+        ]
+      }
+    ]
+  }
+]

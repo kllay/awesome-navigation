@@ -1,0 +1,255 @@
+[
+     {
+    "category": "自媒体工具",
+    "icon": "fa-film",
+    "layout": "tab",
+    "children": [
+      {
+        "category2": "热点新闻",
+        "items": [
+          {
+            "title": "tophub",
+            "url": "https://tophub.today/",
+            "desc": "今日热榜",
+            "icon": "https://file.ipadown.com/tophub/assets/images/logo.png"
+          },
+           {
+            "title": "duomoyu",
+            "url": "https://duomoyu.com/hot-list",
+            "desc": "多摸鱼热点新闻"
+          }
+        ]
+      },{
+        "category2": "媒体平台",
+        "items": [
+          {
+            "title": "公众号平台",
+            "url": "https://mp.weixin.qq.com/",
+            "desc": "公众号管理平台",
+            "icon": "assets/img/gongzhonghao.svg"
+          },
+           {
+            "title": "百家号平台",
+            "url": "https://baijiahao.baidu.com/",
+            "desc": "百家号管理平台",
+            "icon": "https://pic.rmb.bdstatic.com/fca6442e33e382607aca01ef5cf371e6.svg"
+          },
+           {
+            "title": "视频号",
+            "url": "https://channels.weixin.qq.com/login.html",
+            "desc": "视频号 管理平台",
+            "icon": "https://res.wx.qq.com/t/fed_upload/475e6b94-d4ef-4393-bb05-2ca0d71f5ada/logo.png"
+          },
+           {
+            "title": "小红书",
+            "url": "https://www.xiaohongshu.com/explore",
+            "desc": "小红书发布平台",
+            "icon": "assets/img/xiaohongshu.png"
+          }
+        ]
+      },
+      {
+        "category2": "ai创作平台",
+        "items": [
+          {
+            "title": "度加创作工具",
+            "url": "https://aigc.baidu.com/home",
+            "desc": "百度创建工具平台",
+            "icon": "https://pic.rmb.bdstatic.com/activity/2024-1/1704273826488/c13819b5196d.png?x-bce-process=image/format,f_auto"
+          },
+           {
+            "title": "百度妙笔ai创作",
+            "url": "https://miaobi.baidu.com/shortvideo/index",
+            "desc": "百度妙笔ai创作 ai视频图片生成",
+            "icon": "https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png"
+          }
+        ]
+      },
+      {
+        "category2": "开店平台",
+        "items": [
+          {
+            "title": "拼多多商家后台",
+            "url": "https://mms.pinduoduo.com/home",
+            "desc": "拼多多商家后台",
+            "icon": "https://funimg.pddpic.com/mms/83b65e60-bdc1-4cc9-860e-5fb9435f9546.png.slim.png"
+          },
+           {
+            "title": "小红书千帆",
+            "url": "https://ark.xiaohongshu.com/app-system/home",
+            "desc": "小红书千帆商家后台",
+            "icon": "https://fe-platform.xhscdn.com/platform/104101l031gld7c1b3o067m6e4lrrpno0074v4c7ee3ga8"
+          },
+           {
+            "title": "抖店商家后台",
+            "url": "https://fxg.jinritemai.com/",
+            "desc": "抖店商家后台",
+            "icon": "https://lf3-static.bytednsdoc.com/obj/eden-cn/oadv…lp/merchant-recruitment/pc/header/header-logo.svg"
+          },
+           {
+            "title": "快手商家后台",
+            "url": "https://s.kwaixiaodian.com/zone/home",
+            "desc": "快手商家后台",
+            "icon": "https://p5-ec.eckwai.com/kos/nlav12333/seller-assets/427319018.1207f8d639b153c1.png"
+          },
+           {
+            "title": "微信小店后台",
+            "url": "https://shop.weixin.qq.com/",
+            "desc": "微信小店后台",
+            "icon": "https://res.wx.qq.com/wxaproducttrade/dist/images/nav_ac540b.svg"
+          },
+           {
+            "title": "淘宝千牛商家后台",
+            "url": "https://myseller.taobao.com/home.htm/QnworkbenchHome/",
+            "desc": "淘宝千牛商家后台",
+            "icon": "https://img.alicdn.com/imgextra/i4/O1CN01wLdpCj1X9Y7zgI4kr_!!6000000002881-2-tps-174-60.png"
+          },
+           {
+            "title": "temu商家后台",
+            "url": "https://seller.kuajingmaihuo.com/login",
+            "desc": "temu商家后台",
+            "icon": "https://bstatic.cdnfe.com/static/bgb-sc-settle/3035f0854db2ac024edb.png"
+          },
+           {
+            "title": "tiktok商家后台",
+            "url": "https://seller.tiktok.com/",
+            "desc": "tiktok商家后台",
+            "icon": "https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/i18n/ecom/global/static/media/logo.700a5055.svg"
+          },
+           {
+            "title": "tiktok卖家中心",
+            "url": "https://seller.tiktokshopglobalselling.com/account/login",
+            "desc": "tiktok卖家中心",
+            "icon": "https://lf16-scmcdn.oecstatic.com/obj/oec-magellan-sg/i18n/ecom/global/static/media/logo.700a5055.svg"
+          },
+           {
+            "title": "亚马逊开店指南",
+            "url": "https://sell.amazon.com/zh/sell/registration-guide",
+            "desc": "亚马逊开店指南",
+            "icon": "https://m.media-amazon.com/images/G/01/sell/navigation/amazon-logo-squid-menu.svg"
+          },
+           {
+            "title": "亚马逊美区卖家中心",
+            "url": "https://sellercentral.amazon.com/",
+            "desc": "亚马逊美区卖家中心",
+            "icon": "https://m.media-amazon.com/images/G/01/sell/navigation/amazon-logo-squid-menu.svg"
+          },
+           {
+            "title": "亚马逊英国卖家中心",
+            "url": "https://sellercentral.amazon.co.uk/",
+            "desc": "亚马逊英国卖家中心",
+            "icon": "https://m.media-amazon.com/images/G/01/sell/navigation/amazon-logo-squid-menu.svg"
+          },
+           {
+            "title": "ebay 卖家中心",
+            "url": "https://signin.ebay.com/signin/",
+            "desc": "ebay 卖家中心",
+            "icon": "assets/img/ebay.svg"
+          },
+           {
+            "title": "shopify 卖家中心",
+            "url": "https://www.shopify.com/",
+            "desc": "shopify 卖家中心",
+            "icon": "https://cdn.shopify.com/b/shopify-brochure2-assets/d9340911ca8c679b148dd4a205ad2ffa.svg"
+          },
+           {
+            "title": "ozon 卖家中心",
+            "url": "https://seller.ozon.ru/",
+            "desc": "ozon 卖家中心",
+            "icon": "assets/img/ozon.png"
+          },
+           {
+            "title": "fordeal 卖家中心",
+            "url": "https://intl-business.fordeal.com/zh-CN/login",
+            "desc": "fordeal 卖家中心",
+            "icon": "https://s3.forcloudcdn.com/dmc/97ad3206-a4b0-41a4-8a04-11b842c9aeec-380x100.png"
+          },
+           {
+            "title": "etsy 卖家中心",
+            "url": "https://www.etsy.com/in-en/your/shops/me/dashboard",
+            "desc": "etsy 卖家中心",
+            "icon": "https://img.amz123.com/upload/index_icon/20220416/625a3fb6705a5.png/viewthumb"
+          },
+           {
+            "title": "wildberries 卖家中心",
+            "url": "https://seller-auth.wildberries.ru/zh/",
+            "desc": "wildberries 卖家中心",
+            "icon": "https://img.amz123.com/upload/image_cloud/202502/1…vJbMl3NAgDNAgCwyjrYcSo5kn4HiXwOi4VQAA_512_512.jpg"
+          }
+        ]
+      },
+      {
+        "category2": "影视剪辑素材",
+        "items": [
+          {
+            "title": "找台词",
+            "url": "https://zhaotaici.cn/",
+            "desc": "通过台词找片段视频",
+            "icon": "https://zhaotaici.cn/img/logo-find-subtitle.png"
+          },
+           {
+            "title": "音效网",
+            "url": "https://www.aigei.com/",
+            "desc": "找音效素材 配音",
+            "icon": "https://cdn-sqn.aigei.com/assets/site/img/logo/text/publish/logo-1_0.png"
+          },
+           {
+            "title": "pixabay",
+            "url": "https://pixabay.com/",
+            "desc": "免费图片 视频素材"
+            
+          }
+
+
+        ]
+      },
+      {
+        "category2": "小说推文",
+        "items": [
+          {
+            "title": "番茄小说",
+            "url": "https://kol.fanqieopen.com/page/task",
+            "desc": "番茄小说",
+            "icon": "assets/img/fanqiedaren.png"
+          },
+           {
+            "title": "七猫小说",
+            "url": "https://kol.wtzw.com/login",
+            "desc": "七猫小说推文",
+            "icon": "https://kol.wtzw.com/assets/logo.ec00e975.png"
+          },
+           {
+            "title": "起点小说",
+            "url": "https://koc.yuewen.com/user/login",
+            "desc": "起点小说推文",
+            "icon": "https://imgservices-1252317822.image.myqcloud.com/coco/s06062024/9e63ef99.6a6ll9.png"
+          },
+           {
+            "title": "qq小说",
+            "url": "https://kol.yuewen.com/#/",
+            "desc": "qq达人推文平台",
+            "icon": "https://kol.yuewen.com/logo.png"
+          },
+           {
+            "title": "小火花自 媒 体 助 手",
+            "url": "https://zs.xhh.com/signin",
+            "desc": "小火花自 媒 体 助 手管理多个账号",
+            "icon": "https://zs.xhh.com/img/icon2-B4AoHs1u.png"
+          },
+           {
+            "title": "魔音工坊",
+            "url": "https://www.moyin.com/",
+            "desc": "魔音工坊配音平台",
+            "icon": "https://www.moyin.com/favicon.ico"
+          },
+           {
+            "title": "逗哥配音",
+            "url": "https://www.douge.com/index",
+            "desc": "配音平台",
+            "icon": "https://file.douge.cn/post/pcStatic/images/logo-new.png"
+          }
+        ]
+      }
+    ]
+  }
+]

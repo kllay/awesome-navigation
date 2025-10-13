@@ -1,11 +1,153 @@
 
 
 
+
+// 编辑
+$(document).on('click', '.edit-nav-btn', function () {
+  const title = $(this).data('title');
+  const myNav = JSON.parse(localStorage.getItem('myNav')) || [];
+
+  let found;
+  myNav.forEach(group => {
+    group.children.forEach(sub => {
+      sub.items.forEach(item => {
+        if (item.title === title) found = item;
+      });
+    });
+  });
+
+  if (!found) return alert('未找到该项');
+
+  $('#custom-title').val(found.title);
+  $('#custom-url').val(found.url);
+  $('#custom-desc').val(found.desc);
+  $('#custom-icon').val(found.icon);
+  $('#custom-nav-modal').fadeIn();
+
+  $('#save-custom-nav').off('click').on('click', function () {
+    found.title = $('#custom-title').val().trim();
+    found.url = $('#custom-url').val().trim();
+    found.desc = $('#custom-desc').val().trim();
+    found.icon = $('#custom-icon').val().trim();
+    localStorage.setItem('myNav', JSON.stringify(myNav));
+    alert('修改成功');
+    $('#custom-nav-modal').fadeOut();
+  });
+});
+
+
+$('#import-my-nav').on('change', function (e) {
+  const file = e.target.files[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = function (event) {
+    try {
+      const imported = JSON.parse(event.target.result);
+      if (!Array.isArray(imported)) throw new Error('格式错误');
+
+      localStorage.setItem('myNav', JSON.stringify(imported));
+      alert('导入成功，请刷新页面查看效果');
+    } catch (err) {
+      alert('导入失败：' + err.message);
+    }
+  };
+  reader.readAsText(file);
+});
+
+
+$('#export-my-nav').on('click', function () {
+  const data = localStorage.getItem('myNav');
+  if (!data) return alert('没有可导出的数据');
+
+  const blob = new Blob([data], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'my-navigation.json';
+  a.click();
+});
+
+
+
+// 打开弹窗
+$('#create-custom').on('click', function () {
+  $('#custom-nav-modal').fadeIn();
+});
+
+// 关闭弹窗
+$('#close-custom-modal, #close-custom-modal-2').on('click', function () {
+  $('#custom-nav-modal').fadeOut();
+});
+
+// 保存数据到 localStorage
+$('#save-custom-nav').on('click', function () {
+  const category = $('#custom-category').val().trim();
+  const category2 = $('#custom-subcategory').val().trim();
+  const title = $('#custom-title').val().trim();
+  const url = $('#custom-url').val().trim();
+  const desc = $('#custom-desc').val().trim();
+  const icon = $('#custom-icon').val().trim();
+
+
+  if (!category || !category2 || !title || !url) {
+    alert('请填写完整信息');
+    return;
+  }
+
+  const newItem = {
+    title, url, desc, icon,
+    isLocal: true
+  };
+
+
+  let myNav = JSON.parse(localStorage.getItem('myNav')) || [];
+
+  // 查找是否已有该一级类目
+  let group = myNav.find(g => g.category === category);
+  if (!group) {
+    group = {
+      category,
+      icon: 'fa-user',
+      layout: 'vertical',
+      children: []
+    };
+    myNav.push(group);
+  }
+
+  // 查找是否已有该二级类目
+  let sub = group.children.find(s => s.category2 === category2);
+  if (!sub) {
+    sub = {
+      category2,
+      items: []
+    };
+    group.children.push(sub);
+  }
+
+  sub.items.push(newItem);
+  localStorage.setItem('myNav', JSON.stringify(myNav));
+  alert('保存成功！');
+  $('#custom-nav-modal').fadeOut();
+});
+
+
+
+
+
+
 $(function () {
   $('[class="desc-limit"]').tooltip({
     placement: 'top',
     trigger: 'hover'
   });
+  //  页面加载时渲染用户导航
+  const myNav = JSON.parse(localStorage.getItem('myNav'));
+  if (myNav && myNav.length > 0) {
+    siteData.push(...myNav);
+  }
+
+
 });
 
 
@@ -93,33 +235,33 @@ function getSearchUrl(engine, keyword) {
 
 
 
-$(function () {
-  $.getJSON('data/sites.json', function (data) {
-    let navHtml = '';
-    let contentHtml = '';
+// $(function () {
+//   $.getJSON('data/sites.json', function (data) {
+//     let navHtml = '';
+//     let contentHtml = '';
 
 
-    if (data.children && Array.isArray(data.children)) {
-    data.forEach(category => {
-      navHtml += `<li><strong>${category.category}</strong><ul>`;
-      category.items.forEach(item => {
-        navHtml += `<li><a href="#${item.id}" target="_blank" >${item.title}</a></li>`;
-        contentHtml += `
-          <section id="${item.id}" class="mb-5">
-            <h5>${item.title}</h5>
-            <p>${item.desc}</p>
-            <a href="jump.html?target=${encodeURIComponent(item.url)}" target="_blank" class="btn btn-sm btn-primary">跳转</a>
-          </section>
-        `;
-      });
-      navHtml += `</ul></li>`;
-    });
-  }
+//     if (data.children && Array.isArray(data.children)) {
+//     data.forEach(category => {
+//       navHtml += `<li><strong>${category.category}</strong><ul>`;
+//       category.items.forEach(item => {
+//         navHtml += `<li><a href="#${item.id}" target="_blank" >${item.title}</a></li>`;
+//         contentHtml += `
+//           <section id="${item.id}" class="mb-5">
+//             <h5>${item.title}</h5>
+//             <p>${item.desc}</p>
+//             <a href="jump.html?target=${encodeURIComponent(item.url)}" target="_blank" class="btn btn-sm btn-primary">跳转</a>
+//           </section>
+//         `;
+//       });
+//       navHtml += `</ul></li>`;
+//     });
+//   }
 
-    $('#nav-menu').html(navHtml);
-    $('#content-area').html(contentHtml);
-  });
-});
+//     $('#nav-menu').html(navHtml);
+//     $('#content-area').html(contentHtml);
+//   });
+// });
 
 
 $('#nav-menu a').on('click', function (e) {

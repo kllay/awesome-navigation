@@ -1,0 +1,91 @@
+[
+    {
+    "category": "热门推荐",
+    "icon": " fa-bomb",
+    "layout": "vertical",
+    "children": [
+      {
+        "category2": "AI热门工具",
+        "items": [
+          {
+            "title": "ChatGPT",
+            "url": "https://chat.openai.com",
+            "desc": "AI 聊天助手",
+            "icon": "assets/img/chatgpt.png"
+          },
+           {
+            "title": "copilot",
+            "url": "https://copilot.microsoft.com/",
+            "desc": "微软AI 聊天助手",
+            "icon": "assets/img/copilot.svg"
+          },
+           {
+            "title": "doubao",
+            "url": "https://www.doubao.com/chat",
+            "desc": "豆包 聊天助手",
+            "icon": "assets/img/doubao.png"
+          },
+           {
+            "title": "sora",
+            "url": "https://sora.chatgpt.com/",
+            "desc": "sora视频制作",
+            "icon": "assets/img/sora.svg"
+          },
+          {
+            "title": "deepseek",
+            "url": "https://chat.deepseek.com/",
+            "desc": "deepseek 聊天助手",
+            "icon": "assets/img/deepseek.png"
+          },
+          {
+            "title": "midjourney",
+            "url": "https://www.midjourney.com/",
+            "desc": "AI 绘图工具",
+            "icon": "assets/img/midjourney.png"
+          },
+            {
+            "title": "suno",
+            "url": "https://suno.com/home",
+            "desc": "AI 音乐工具",
+            "icon": "assets/img/suno.png"
+          }
+        ]
+      },
+      {
+        "category2": "剪辑热门工具",
+        "items": [
+          {
+            "title": "capcut",
+            "url": "https://www.capcut.com/",
+            "desc": "capcut 剪辑工具",
+            "icon": "assets/img/capcut.svg"
+          },
+           {
+            "title": "filmora",
+            "url": "https://filmora.wondershare.com/",
+            "desc": "filmora 剪辑工具",
+            "icon": "https://neveragain.allstatics.com/2019/assets/icon/logo/filmora-square.svg"
+          },
+          {
+            "title": "canva",
+            "url": "https://www.canva.com/",
+            "desc": "canva 剪辑工具",
+            "icon": "https://static.canva.com/web/images/8439b51bb7a19f6e65ce1064bc37c197.svg"
+          },
+          {
+            "title": "shotcut",
+            "url": "https://www.shotcut.org/",
+            "desc": "shotcut 剪辑工具",
+            "icon": "https://www.shotcut.org/assets/img/shotcut-logo-mobile.png"
+          },
+          {
+            "title": "openshot",
+            "url": "https://www.openshot.org/",
+            "desc": "openshot 剪辑工具",
+            "icon": "https://cdn.openshot.org/static/img/logos/logo.png"
+          }
+        ]
+      }
+    ]
+  }
+]

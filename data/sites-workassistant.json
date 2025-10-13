@@ -1,0 +1,50 @@
+[
+  {
+    "category": "工作助手",
+    "icon": "fa-bed",
+    "layout": "tab",
+    "children": [
+      {
+        "category2": "图片去水印",
+        "items": [
+          {
+            "title": "arkthinker",
+            "url": "https://www.arkthinker.com/zh/watermark-remover/editor/",
+            "desc": "arkthinker 图片去水印 免登录",
+            "icon": "https://www.arkthinker.com/js/watermark-remover/editor/img/arkthinker-logo.62b8ad24.svg"
+          },
+           {
+            "title": "watermarkremover",
+            "url": "https://www.watermarkremover.io/zh/upload",
+            "desc": "watermarkremover  图片去水印 免登录",
+            "icon": "https://cdn.pixelbin.io/v2/dummy-cloudname/original/__logos__/watermark_remover/wmr_logo_light.png?f_auto=true"
+          },
+           {
+            "title": "lama-cleaner",
+            "url": "https://github.com/a-milenkin/lama-cleaner",
+            "desc": "lama-cleaner  图片去水印 免登录",
+            "icon": "https://github.githubassets.com/favicons/favicon.svg"
+          },
+           {
+            "title": "dewatermark",
+            "url": "https://dewatermark.ai/upload",
+            "desc": "dewatermark 图片去水印",
+            "icon": "https://assets.dewatermark.ai/images/watermark-remover/header_logo_new.webp"
+          },
+           {
+            "title": "monica",
+            "url": "https://monica.im/zh_CN/image-tools/ai-watermark-remover",
+            "desc": "monica  图片去水印 需要登录",
+            "icon": "https://assets.monica.im/tools-web/_next/static/media/monicaLogo.83e0ae18.png"
+          },
+           {
+            "title": "picwish",
+            "url": "https://picwish.cn/remove-image-watermark",
+            "desc": "picwish  图片去水印 需要登录",
+            "icon": "https://qncdn.aoscdn.com/astro/picwish/_astro/logo-zh.Bv2rokLa.svg"
+          }
+        ]
+      }
+    ]
+  }
+]
