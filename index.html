@@ -395,24 +395,29 @@ function renderCards(items) {
 const categories = ['main', 'aitools','wemedia','developtool', 'workassistant'];
 
 $(function () {
-  let loaded = 0;
+  
+  function loadCategoriesSequentially(index = 0) {
+    if (index >= categories.length) {
+      // 所有数据加载完成后，渲染导航
+      renderSidebar(siteData);
+      renderMobileMenu(siteData);
+      $('.toggle-group').first().click(); // 默认展开第一个分类
+      return;
+    }
 
-  categories.forEach(category => {
+    const category = categories[index];
     $.getJSON(`data/sites-${category}.json`, function (data) {
       siteData = siteData.concat(data);
-      loaded++;
-
-      if (loaded === categories.length) {
-        renderSidebar(siteData);
-        renderMobileMenu(siteData);
-        if (siteData.length > 0) {
-          $('.toggle-group').first().click();
-        }
-        console.log('siteData:', siteData);
-      }
+      loadCategoriesSequentially(index + 1); // 加载下一个
+    }).fail(function () {
+      console.warn(`加载失败: sites-${category}.json`);
+      loadCategoriesSequentially(index + 1); // 即使失败也继续加载下一个
     });
-  });
+  }
+
+  loadCategoriesSequentially();
 });
+
 
 
   </script>
