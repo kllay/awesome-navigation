@@ -38,6 +38,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="container mt-3">
       <input type="text" id="search-box" class="form-control" placeholder="搜索网站名称或描述...">
     </div>
+    <button class="btn btn-outline-light d-md-none" id="mobile-menu-toggle" style="position:absolute; top:10px; right:10px;">
+    <i class="fas fa-bars"></i>
+</button>
+
   </header>
 
    <div id="content-wrapper" class="flex-grow-1 d-flex flex-column">
@@ -149,6 +153,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <footer class="text-center py-3">
     <small>© 2025 kllay自助导航平台</small>
   </footer>
+  <div id="mobile-menu" class="bg-dark text-white p-3" style="position:fixed;top:0;right:0;width:80%;height:100%;z-index:9999;display:none;overflow-y:auto;">
+  <button class="btn btn-sm btn-light mb-3" id="mobile-menu-close">关闭菜单</button>
+  <ul id="mobile-nav-menu" class="list-unstyled"></ul>
+  </div>
+
   <button id="back-to-top" title="返回顶部">↑</button>
   <canvas id="mouse-trail-canvas" style="position:fixed;top:0;left:0;pointer-events:none;z-index:9999;"></canvas>
 
@@ -267,6 +276,34 @@ $('.toggle-group').on('click', function () {
   });
 }
 
+
+function renderMobileMenu(data) {
+  let html = '';
+  data.forEach((group, i) => {
+    html += `<li class="mb-2">
+      <strong>${group.category}</strong>
+      <ul class="ml-3">`;
+    group.children.forEach((sub, j) => {
+      html += `<li>
+        <a href="#" class="text-white mobile-nav-link" data-group="${i}" data-sub="${j}">
+          ${sub.category2}
+        </a>
+      </li>`;
+    });
+    html += `</ul></li>`;
+  });
+  $('#mobile-nav-menu').html(html);
+
+  $('.mobile-nav-link').on('click', function () {
+    const groupIndex = $(this).data('group');
+    const subIndex = $(this).data('sub');
+    $('.toggle-group').eq(groupIndex).click();
+    $(`.nav-link-sub[data-group="${groupIndex}"][data-sub="${subIndex}"]`).click();
+    $('#mobile-menu').fadeOut();
+  });
+}
+
+
 function renderMainTitle(title) {
   $('#main-title').text(title);
 }
@@ -329,26 +366,31 @@ function renderCards(items) {
     const editBtn = item.isLocal
       ? `<button class="btn btn-sm btn-warning edit-nav-btn mt-2" data-title="${item.title}">编辑</button>`
       : '';
+    const deleteBtn = item.isLocal
+      ? `<button class="btn btn-sm btn-danger delete-nav-btn mt-2" data-title="${item.title}">删除</button>`
+      : '';
 
     return `
       <div class="col-md-3 col-sm-4 col-6 mb-4">
-        <a href="jump.html?target=${encoded}&title=${encodeURIComponent(item.title)}" target="_blank" class="card site-card text-white text-decoration-none h-100">
-          <div class="card-body d-flex flex-column align-items-start">
-            <div class="d-flex align-items-center mb-2">
-              <img src="${iconUrl}" alt="${item.title}" class="rounded-circle mr-2" style="width:64px; height:64px;" onerror="this.src='assets/img/default.png'">
-              <div>
+        <div class="card site-card text-white text-decoration-none h-100 p-2">
+          <a href="jump.html?target=${encoded}&title=${encodeURIComponent(item.title)}" target="_blank" class="text-white text-decoration-none">
+            <div class="d-flex flex-md-row flex-column align-items-center">
+              <img src="${iconUrl}" alt="${item.title}" class="rounded-circle mb-2 mb-md-0 mr-md-2" style="width:64px; height:64px;" onerror="this.src='assets/img/default.png'">
+              <div class="text-center text-md-left">
                 <h6 class="mb-1">${item.title}</h6>
-                <small class="desc-limit" title="${item.desc}">${item.desc}</small>
+                <small class="desc-limit d-block" title="${item.desc}">${item.desc}</small>
               </div>
             </div>
-            
-          </div>
-        </a>
-        ${editBtn}
+          </a>
+          ${editBtn}
+          ${deleteBtn}
+        </div>
       </div>
     `;
   }).join('');
 }
+
+
 
 const categories = ['main', 'aitools','wemedia','developtool', 'workassistant'];
 
@@ -362,6 +404,7 @@ $(function () {
 
       if (loaded === categories.length) {
         renderSidebar(siteData);
+        renderMobileMenu(siteData);
         if (siteData.length > 0) {
           $('.toggle-group').first().click();
         }

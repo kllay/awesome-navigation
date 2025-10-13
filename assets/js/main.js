@@ -1,6 +1,15 @@
 
 
 
+// 移动端菜单
+$('#mobile-menu-toggle').on('click', function () {
+  $('#mobile-menu').fadeIn();
+});
+
+$('#mobile-menu-close').on('click', function () {
+  $('#mobile-menu').fadeOut();
+});
+
 
 // 编辑
 $(document).on('click', '.edit-nav-btn', function () {
