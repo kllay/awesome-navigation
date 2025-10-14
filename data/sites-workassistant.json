@@ -44,7 +44,39 @@
             "icon": "https://qncdn.aoscdn.com/astro/picwish/_astro/logo-zh.Bv2rokLa.svg"
           }
         ]
+      },
+       {
+        "category2": "翻译工具",
+        "items": [
+          {
+            "title": "google translate",
+            "url": "https://translate.google.mn/?sl=auto&tl=en&op=translate",
+            "desc": "google 谷歌翻译",
+            "icon": "assets/img/google.svg"
+          },
+           {
+            "title": "deepl",
+            "url": "https://www.deepl.com/en/translator",
+            "desc": "deepl 翻译",
+            "icon": "https://www.deepl.com/img/logo/deepl-logo-blue.svg"
+          },
+           {
+            "title": "百度翻译",
+            "url": "https://fanyi.baidu.com/",
+            "desc": "百度 翻译",
+            "icon": "https://fanyi-cdn.cdn.bcebos.com/static/cat/asset/logo.b10defd4.png"
+          },
+           {
+            "title": "youdao",
+            "url": "https://fanyi.youdao.com/#/AITranslate",
+            "desc": "youdao 翻译",
+            "icon": "assets/img/youdao.png"
+          }
+          
+ 
+        ]
       }
     ]
   }
+  
 ]

@@ -32,8 +32,23 @@ body {
   overflow-y: auto;
   background: #2c3e50;
   box-shadow: 2px 0 10px rgba(0,0,0,0.3);
+  max-height: 80vh; /* 限制最大高度为视口高度 */
+  overflow-y: auto;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #888 transparent;
 }
 
+
+.sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 3px;
+}
+.sidebar::-webkit-scrollbar-track {
+  background-color: transparent;
+}
 
 
 .sidebar h4 {

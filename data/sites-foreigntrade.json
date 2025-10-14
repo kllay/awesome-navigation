@@ -1,0 +1,39 @@
+[
+  {
+    "category": "外贸资源",
+    "icon": "fa-fighter-jet",
+    "layout": "vertical",
+    "children": [
+      {
+        "category2": "外贸搜索引擎",
+        "items": [
+          {
+            "title": "google",
+            "url": "https://www.google.com/",
+            "desc": "google搜索引擎",
+            "icon": "assets/img/google.svg"
+          },
+          {
+            "title": "yandex",
+            "url": "https://yandex.com/",
+            "desc": "俄罗斯搜索引擎",
+            "icon": "https://yastatic.net/s3/home-static/_/nova/JSRBlH1m.png"
+          },
+          {
+            "title": "yahoo",
+            "url": "https://search.yahoo.com/",
+            "desc": "yahoo 搜索引擎",
+            "icon": "https://s.yimg.com/pv/static/img/y_icon_iphone_120.min.png"
+          },
+          {
+            "title": "bing",
+            "url": "https://www.bing.com/",
+            "desc": "bing 搜索引擎",
+            "icon": "assets/img/microsoft.png"
+          }
+          
+        ]
+      }
+    ]
+  }
+]
