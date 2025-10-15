@@ -17,6 +17,10 @@ body {
   flex-direction: column;
 }
 
+.my-search-tops{
+  width: 50% !important;
+}
+
 /* 全局字体与背景 */
 body {
   font-family: 'Segoe UI', sans-serif;
@@ -28,6 +32,7 @@ body {
 .sidebar {
   width: 250px;
   /* min-height: 100vh; */
+  top: 135px; 
   position: fixed;
   overflow-y: auto;
   background: #2c3e50;
