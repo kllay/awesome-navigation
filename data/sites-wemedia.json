@@ -249,6 +249,54 @@
             "icon": "https://file.douge.cn/post/pcStatic/images/logo-new.png"
           }
         ]
+      },
+      {
+        "category2": "小说写作平台",
+        "items": [
+          {
+            "title": "番茄小说作家平台",
+            "url": "https://fanqienovel.com/main/writer/?enter_from=author_zone",
+            "desc": "番茄小说作家平台",
+            "icon": "assets/img/fanqiedaren.png"
+          },
+           {
+            "title": "七猫小说作家平台",
+            "url": "https://zuozhe.qimao.com/",
+            "desc": "七猫小说作家平台",
+            "icon": "https://kol.wtzw.com/assets/logo.ec00e975.png"
+          },
+           {
+            "title": "起点小说作家平台",
+            "url": "https://write.qq.com/",
+            "desc": "起点小说推文",
+            "icon": "https://imgservices-1252317822.image.myqcloud.com/coco/s06062024/9e63ef99.6a6ll9.png"
+          },
+           {
+            "title": "qq小说作家平台",
+            "url": "https://write.qq.com/",
+            "desc": "qq达人推文平台",
+            "icon": "https://kol.yuewen.com/logo.png"
+          },
+           {
+            "title": "百度小说作家平台",
+            "url": "https://zuojia.baidu.com/",
+            "desc": "百度小说作家平台",
+            "icon": "https://zuojia.baidu.com/images/62052f14a37d3424044a7aae220876f5.png"
+          },
+           {
+            "title": "知乎小说作家平台",
+            "url": "https://www.zhihu.com/author-platform/home",
+            "desc": "知乎小说作家平台",
+            "icon": "https://static.zhihu.com/creator-platform/assets/apple-touch-icon-76.7abf3393.png"
+          },
+           {
+            "title": "阅文集团",
+            "url": "https://www.yuewen.com/",
+            "desc": "阅文集团",
+            "icon": "https://www.yuewen.com/assets/logo-fbe3be3d.png"
+          }
+  
+        ]
       }
     ]
   }

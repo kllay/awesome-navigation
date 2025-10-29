@@ -219,7 +219,7 @@ function renderCards(items) {
   }).join('');
 }
 
-
+ 
 
 const categories = ['main', 'aitools','wemedia','developtool', 'workassistant','foreigntrade'];
 

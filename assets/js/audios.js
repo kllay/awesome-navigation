@@ -66,7 +66,23 @@ toggleBtn.addEventListener('click', function () {
 // 页面加载时自动播放（如果开启）
 window.addEventListener('DOMContentLoaded', () => {
   updateMusicButton();
+
   if (musicEnabled) {
-    bgAudio.play().catch(err => console.warn('音乐播放失败', err));
+    const tryPlay = () => {
+      bgAudio.play().then(() => {
+        console.log('音乐已播放');
+      }).catch(err => {
+        console.warn('音乐播放失败', err);
+      });
+
+      // 播放一次后移除监听器
+      document.removeEventListener('click', tryPlay);
+      document.removeEventListener('touchstart', tryPlay);
+    };
+
+    // 等待用户交互
+    document.addEventListener('click', tryPlay);
+    document.addEventListener('touchstart', tryPlay);
   }
 });
+
