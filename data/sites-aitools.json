@@ -79,6 +79,12 @@
             "desc": "通义千问  聊天助手",
             "icon": "https://img.alicdn.com/imgextra/i4/O1CN01lAlxMo1LOs0lFrZG7_!!6000000001290-55-tps-33-53.svg"
           },
+          {
+            "title": "通义国际版",
+            "url": "https://chat.qwen.ai/",
+            "desc": "通义国际版  聊天助手",
+            "icon": "https://img.alicdn.com/imgextra/i4/O1CN01lAlxMo1LOs0lFrZG7_!!6000000001290-55-tps-33-53.svg"
+          },
            {
             "title": "紫东太初",
             "url": "https://taichu-web.ia.ac.cn/#/login",
@@ -143,6 +149,12 @@
             "url": "https://www.adobe.com/products/firefly.html",
             "desc": "AI 绘图工具 注意国内不行",
             "icon": "https://www.adobe.com/federal/assets/svgs/adobe-logo.svg"
+          },
+          {
+            "title": "nano banana",
+            "url": "https://www.nano-banana.ai/",
+            "desc": "AI 绘图工具",
+            "icon": "https://www.nano-banana.ai/favicon.ico"
           }
         ]
       },

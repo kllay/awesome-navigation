@@ -297,6 +297,27 @@
           }
   
         ]
+      },
+      {
+        "category2": "电商推广联盟",
+        "items": [
+          {
+            "title": "京东联盟地址",
+            "url": "https://union.jd.com/index",
+            "desc": "京东联盟地址",
+            "icon": "https://www.jd.com/favicon.ico"
+          },  {
+            "title": "淘宝联盟地址",
+            "url": "https://pub.alimama.com/",
+            "desc": "淘宝联盟地址",
+            "icon": "https://img.alicdn.com/imgextra/i2/O1CN0175beti210mtUsEgKT_!!6000000006923-2-tps-1876-160.png"
+          },  {
+            "title": "多多进宝地址",
+            "url": "https://jinbao.pinduoduo.com/whole/data",
+            "desc": "多多进宝地址",
+            "icon": "https://t16img.yangkeduo.com/mms_static/c9cf044aadd7ae505d0100e54cd4c608.ico"
+          }
+        ]
       }
     ]
   }

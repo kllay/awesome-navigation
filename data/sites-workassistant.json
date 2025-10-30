@@ -75,6 +75,53 @@
           
  
         ]
+      },
+      {
+        "category2": "ppt 制作",
+        "items": [
+          {
+            "title": "gamma",
+            "url": "https://gamma.app/",
+            "desc": "gamma ppt 制作",
+            "icon": "https://static.gamma.app/favicons/favicon_dark.svg"
+          },
+           {
+            "title": "Canva",
+            "url": "https://www.canva.com/create/ai-presentations/",
+            "desc": "Canva AI 演示文稿生成器",
+            "icon": "https://static.canva.com/static/images/favicon-1.ico"
+          },
+           {
+            "title": "文多多",
+            "url": "https://www.docmee.cn/en",
+            "desc": "文多多 AIPPT（国外）",
+            "icon": "https://www.docmee.cn//favicon.ico"
+          },
+           {
+            "title": "Beautiful",
+            "url": "https://www.beautiful.ai/",
+            "desc": "AI 音乐工具",
+            "icon": "https://cdn.prod.website-files.com/59deb588800ae30001ec19c9/5d4891e0e260e3c1bc37b100_beautiful%20ai%20favicon%20%20blue%20square.png"
+          },
+           {
+            "title": "文多多",
+            "url": "https://www.aippt.cn/",
+            "desc": "文多多 AIPPT（国内）",
+            "icon": "https://www.docmee.cn//favicon.ico"
+          },
+           {
+            "title": "文多多",
+            "url": "https://www.aippt.cn/",
+            "desc": "文多多 AIPPT（国内）",
+            "icon": "https://www.docmee.cn//favicon.ico"
+          },
+           {
+            "title": "popai",
+            "url": "https://www.popai.pro/",
+            "desc": "popai PPT 制作",
+            "icon": "https://www.popai.pro/favicon.svg"
+          }
+        ]
       }
     ]
   }
