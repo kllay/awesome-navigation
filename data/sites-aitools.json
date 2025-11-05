@@ -96,6 +96,36 @@
             "url": "https://platform.baichuan-ai.com/homePage",
             "desc": "百川智能  聊天助手",
             "icon": "https://platform.baichuan-ai.com/_next/static/media/baichuan-logo.3cf90442.png"
+          },
+           {
+            "title": "问小白",
+            "url": "https://www.wenxiaobai.com/",
+            "desc": "问小白  聊天助手",
+            "icon": "https://wy-static.wenxiaobai.com/wenxiaobai-web/production/3.15.10/conversationList/logo.png"
+          },
+           {
+            "title": "腾讯元宝",
+            "url": "https://yuanbao.tencent.com/chat/naQivTmsDa",
+            "desc": "腾讯元宝  聊天助手",
+            "icon": "https://static.yuanbao.tencent.com/m/yuanbao-web/favicon@32.png"
+          },
+           {
+            "title": "百度ai",
+            "url": "https://chat.baidu.com/",
+            "desc": "百度ai  聊天助手",
+            "icon": "https://www.baidu.com/img/flexible/logo/pc/result@2.png"
+          },
+           {
+            "title": "讯飞星火",
+            "url": "https://xinghuo.xfyun.cn/desk",
+            "desc": "讯飞星火  聊天助手",
+            "icon": "https://xinghuo.xfyun.cn/spark-icon.ico"
+          },
+           {
+            "title": "huggingface",
+            "url": "https://huggingface.co/chat/",
+            "desc": "huggingface 聊天助手",
+            "icon": "https://huggingface.co/chat/huggingchat/logo.svg"
           }
         ]
       },
@@ -123,7 +153,7 @@
            {
             "title": "klingai",
             "url": "https://app.klingai.com/cn/",
-            "desc": "AI 可灵国外 绘图工具",
+            "desc": "AI 可灵国内 绘图工具",
             "icon": "assets/img/kelingwai.png"
           },
           {
@@ -155,6 +185,30 @@
             "url": "https://www.nano-banana.ai/",
             "desc": "AI 绘图工具",
             "icon": "https://www.nano-banana.ai/favicon.ico"
+          },
+          {
+            "title": "hailuoai ",
+            "url": "https://hailuoai.com/create/image-generation",
+            "desc": "海螺ai国内版 绘图、视频工具",
+            "icon": "https://cdn.hailuoai.com/hailuo-video-web/public_assets/favicon.png"
+          },
+           {
+            "title": "hailuoai ",
+            "url": "https://hailuoai.video/",
+            "desc": "海螺ai国际版 绘图、视频工具",
+            "icon": "https://cdn.hailuoai.com/hailuo-video-web/public_assets/favicon.png"
+          },
+           {
+            "title": "liblib ai ",
+            "url": "https://www.liblib.art/",
+            "desc": "liblib comfyui 绘图、视频工具",
+            "icon": "assets/img/liblibartai.png"
+          },
+           {
+            "title": "comfyui ai ",
+            "url": "https://www.comfy.org/",
+            "desc": "comfyui comfyui 绘图、视频工具",
+            "icon": "assets/img/comfyuiai.png"
           }
         ]
       },
@@ -196,6 +250,30 @@
             "url": "https://www.heygen.com/",
             "desc": "heygen 视频工具",
             "icon": "assets/img/heygen.png"
+          },
+           {
+            "title": "klingai",
+            "url": "https://app.klingai.com/global/",
+            "desc": "AI 可灵国际版 生图、视频工具",
+            "icon": "assets/img/kelingwai.png"
+          },
+           {
+            "title": "jimeng",
+            "url": "https://jimeng.jianying.com/ai-tool/home",
+            "desc": "AI 即梦国内 绘图、视频工具",
+            "icon": "assets/img/jimengailogo.png"
+          },
+           {
+            "title": "jimeng",
+            "url": "https://dreamina.capcut.com/",
+            "desc": "AI 即梦国外 绘图、视频工具",
+            "icon": "assets/img/jimengailogo.png"
+          },
+           {
+            "title": "openart",
+            "url": "https://cdn.openart.ai/assets/home/openart_logo_20240529.svg",
+            "desc": "AI openart  绘图、视频、音乐、对口型工具",
+            "icon": "assets/img/jimengailogo.png"
           }
         ]
       },
@@ -225,6 +303,12 @@
             "url": "https://musick.ai/",
             "desc": "AI 音乐工具",
             "icon": "assets/img/musickai.png"
+          },
+           {
+            "title": "海绵 ai",
+            "url": "https://www.haimian.com/create",
+            "desc": "海绵 音乐工具",
+            "icon": "https://lf-hm-scm.haimianyinyue.com/obj/haimian-scm/doria/swing/favicon.png"
           }
         ]
       },

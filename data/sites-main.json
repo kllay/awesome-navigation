@@ -26,6 +26,12 @@
             "icon": "assets/img/doubao.png"
           },
            {
+            "title": "doubao",
+            "url": "https://www.cici.com/chat/",
+            "desc": "豆包国际版 聊天助手",
+            "icon": "assets/img/doubao.png"
+          },
+           {
             "title": "sora",
             "url": "https://sora.chatgpt.com/",
             "desc": "sora视频制作",
@@ -35,6 +41,12 @@
             "title": "deepseek",
             "url": "https://chat.deepseek.com/",
             "desc": "deepseek 聊天助手",
+            "icon": "assets/img/deepseek.png"
+          },
+          {
+            "title": "deepseek 国际版",
+            "url": "https://www.deepseek.com/en",
+            "desc": "deepseek国际版 聊天助手",
             "icon": "assets/img/deepseek.png"
           },
           {
@@ -48,6 +60,30 @@
             "url": "https://suno.com/home",
             "desc": "AI 音乐工具",
             "icon": "assets/img/suno.png"
+          },
+            {
+            "title": "google aistudio",
+            "url": "https://aistudio.google.com/app/prompts/new_chat",
+            "desc": "aistudio 音乐工具",
+            "icon": "https://www.gstatic.com/aistudio/ai_studio_favicon_2_32x32.png"
+          },
+            {
+            "title": "discord",
+            "url": "https://discord.com/",
+            "desc": "AI 社交工具",
+            "icon": "https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/67d00cf7266d2c75571aebde_Example.svg"
+          },
+            {
+            "title": "小云雀ai",
+            "url": "https://xiaoyunque.jianying.com/",
+            "desc": "小云雀ai 一个创意生成视频",
+            "icon": "assets/img/xiaoyunqueai.png"
+          },
+            {
+            "title": "ima",
+            "url": "https://ima.qq.com/",
+            "desc": "ima  腾讯旗下ai",
+            "icon": "https://static.ima.qq.com/ima/assets/chat/favicon.svg"
           }
         ]
       },
@@ -72,6 +108,12 @@
             "desc": "canva 剪辑工具",
             "icon": "https://static.canva.com/web/images/8439b51bb7a19f6e65ce1064bc37c197.svg"
           },
+           {
+            "title": "canva 国内版",
+            "url": "https://www.canva.cn/",
+            "desc": "canva 剪辑工具",
+            "icon": "https://static.canva.com/web/images/8439b51bb7a19f6e65ce1064bc37c197.svg"
+          },
           {
             "title": "shotcut",
             "url": "https://www.shotcut.org/",
@@ -83,6 +125,35 @@
             "url": "https://www.openshot.org/",
             "desc": "openshot 剪辑工具",
             "icon": "https://cdn.openshot.org/static/img/logos/logo.png"
+          }
+        ]
+      },
+       {
+        "category2": "小说热门工具",
+        "items": [
+          {
+            "title": "笔灵ai",
+            "url": "https://ibiling.cn/novel",
+            "desc": "笔灵ai 小说工具",
+            "icon": "https://ibiling.cn/favicon.ico"
+          },
+           {
+            "title": "喜马拉雅 写作精灵",
+            "url": "https://www.ximalaya.com/gatekeeper/write-wise",
+            "desc": "喜马拉雅 剪辑工具",
+            "icon": "https://s1.xmcdn.com/yx/write-wise/last/build/images/logo-main.png"
+          },
+          {
+            "title": "蛙蛙写作",
+            "url": "https://wawawriter.com/app/",
+            "desc": "蛙蛙写作 小说工具",
+            "icon": "https://wawawriter.com/app/assets/topbar-logo-Bi1FM5gf.svg"
+          },
+          {
+            "title": "星月写作",
+            "url": "https://xingyuexiezuo.com/#/",
+            "desc": "星月写作 小说工具",
+            "icon": "https://xingyuexiezuo.com/assets/logo-4508ce2f.jpeg"
           }
         ]
       }
