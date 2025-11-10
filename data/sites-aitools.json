@@ -278,7 +278,29 @@
         ]
       },
       {
-        "category2": "AI 语音",
+        "category2": "AI 语音克隆",
+        "items": [
+          {
+            "title": "Fish Audio",
+            "url": "https://fish.audio/zh-CN/",
+            "desc": "Fish Audio 克隆语音工具",
+            "icon": "https://fish.audio/favicon.ico"
+          }, {
+            "title": "suno",
+            "url": "https://fish.audio/zh-CN/",
+            "desc": "AI 音乐工具",
+            "icon": "assets/img/suno.png"
+          },{
+            "title": "suno",
+            "url": "https://fish.audio/zh-CN/",
+            "desc": "AI 音乐工具",
+            "icon": "assets/img/suno.png"
+          }
+           
+        ]
+      },
+      {
+        "category2": "AI 音乐",
         "items": [
           {
             "title": "suno",
@@ -353,6 +375,27 @@
             "url": "https://www.perplexity.ai/",
             "desc": "是一家美国私营软件公司，提供网络搜索引擎来处理用户查询并综合响应。",
             "icon": "assets/img/perplexity.png"
+          }
+        ]
+      },
+      {
+        "category2": "AI 综合工具",
+        "items": [
+          {
+            "title": "chatbox",
+            "url": "https://github.com/chatboxai/chatbox",
+            "desc": "chatbox AI 综合工具",
+            "icon": "https://github.githubassets.com/favicons/favicon.svg"
+          },  {
+            "title": "cherry-studio",
+            "url": "https://github.com/CherryHQ/cherry-studio",
+            "desc": "cherry-studio AI 综合工具",
+            "icon": "https://github.githubassets.com/favicons/favicon.svg"
+          },  {
+            "title": "jan",
+            "url": "https://github.com/janhq/jan",
+            "desc": "jan AI 综合工具",
+            "icon": "https://github.githubassets.com/favicons/favicon.svg"
           }
         ]
       }

@@ -156,6 +156,32 @@
             "icon": "https://xingyuexiezuo.com/assets/logo-4508ce2f.jpeg"
           }
         ]
+      },
+      {
+        "category2": "去水印工具",
+        "items": [
+          {
+            "title": "在线图片去水印",
+            "url": "https://huggingface.co/spaces/Sanster/Lama-Cleaner-lama",
+            "desc": "去水印工具",
+            "icon": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
+          },{
+            "title": "sora视频去水印",
+            "url": "https://github.com/linkedlist771/SoraWatermarkCleaner",
+            "desc": "sora视频去水印",
+            "icon": "https://github.githubassets.com/favicons/favicon.png"
+          },{
+            "title": "视频去水印",
+            "url": "https://github.com/halfzm/ProPainter-Webui",
+            "desc": "视频去水印",
+            "icon": "https://github.githubassets.com/favicons/favicon.png"
+          },{
+            "title": "视频去水印",
+            "url": "https://github.com/YaoFANGUK/video-subtitle-remover?tab=readme-ov-file",
+            "desc": "视频去水印",
+            "icon": "https://github.githubassets.com/favicons/favicon.png"
+          }
+        ]
       }
     ]
   }
