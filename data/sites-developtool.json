@@ -102,6 +102,23 @@
             "icon": "assets/img/claude.svg"
           }
         ]
+      },
+      {
+        "category2": "浏览器插件",
+        "items": [
+          {
+            "title": "tampermonkey",
+            "url": "https://www.tampermonkey.net/",
+            "desc": "tampermonkey 油猴插件",
+            "icon": "https://www.tampermonkey.net/favicon.ico"
+          },
+          {
+            "title": "油猴脚本搜索",
+            "url": "https://greasyfork.org/zh-CN",
+            "desc": "油猴脚本搜索",
+            "icon": "https://www.tampermonkey.net/favicon.ico"
+          }
+        ]
       }
     ]
   }

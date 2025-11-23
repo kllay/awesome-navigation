@@ -20,6 +20,12 @@
             "icon": "assets/img/copilot.svg"
           },
            {
+            "title": "aistudio gemini",
+            "url": "https://aistudio.google.com/prompts/new_chat",
+            "desc": "gemini google 聊天助手",
+            "icon": "https://www.gstatic.com/aistudio/ai_studio_favicon_2_32x32.png"
+          },
+           {
             "title": "doubao",
             "url": "https://www.doubao.com/chat",
             "desc": "豆包 聊天助手",
@@ -84,6 +90,12 @@
             "url": "https://ima.qq.com/",
             "desc": "ima  腾讯旗下ai",
             "icon": "https://static.ima.qq.com/ima/assets/chat/favicon.svg"
+          },
+            {
+            "title": "notion",
+            "url": "https://www.notion.com/",
+            "desc": "notion  一个工作文档",
+            "icon": "https://www.notion.com/front-static/favicon.ico"
           }
         ]
       },
