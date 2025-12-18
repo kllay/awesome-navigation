@@ -318,6 +318,85 @@
             "icon": "https://t16img.yangkeduo.com/mms_static/c9cf044aadd7ae505d0100e54cd4c608.ico"
           }
         ]
+      },{
+        "category2": "小说热门工具",
+        "items": [
+          {
+            "title": "笔灵ai",
+            "url": "https://ibiling.cn/novel",
+            "desc": "笔灵ai 小说工具",
+            "icon": "https://ibiling.cn/favicon.ico"
+          },
+           {
+            "title": "喜马拉雅 写作精灵",
+            "url": "https://www.ximalaya.com/gatekeeper/write-wise",
+            "desc": "喜马拉雅 剪辑工具",
+            "icon": "https://s1.xmcdn.com/yx/write-wise/last/build/images/logo-main.png"
+          },
+          {
+            "title": "蛙蛙写作",
+            "url": "https://wawawriter.com/app/",
+            "desc": "蛙蛙写作 小说工具",
+            "icon": "https://wawawriter.com/app/assets/topbar-logo-Bi1FM5gf.svg"
+          },
+          {
+            "title": "星月写作",
+            "url": "https://xingyuexiezuo.com/#/",
+            "desc": "星月写作 小说工具",
+            "icon": "https://xingyuexiezuo.com/assets/logo-4508ce2f.jpeg"
+          }
+        ]
+      },
+      {
+        "category2": "ai短剧生成",
+        "items": [
+          {
+            "title": "百度短剧生成",
+            "url": "https://shenghua.baidu.com/videoplatform/home",
+            "desc": "百度短剧生成",
+            "icon": "https://wise-novel-authority-logo.cdn.bcebos.com/wise-novel-authority-logo/deed15a73bc8.png"
+          },{
+            "title": "oiioii",
+            "url": "https://www.oiioii.ai/home",
+            "desc": "oiioii 故事视频短剧视频生成",
+            "icon": "https://www.oiioii.ai/assets/logo-DRjxrHHy.svg"
+          },{
+            "title": "讯飞绘镜",
+            "url": "https://typemovie.art/landing/",
+            "desc": "讯飞绘镜是科大讯飞推出的一个AI短视频创作平台",
+            "icon": "https://typemovie.art/landing/favicon.ico"
+          },{
+            "title": "sensetime",
+            "url": "https://seko.sensetime.com/explore",
+            "desc": "sensetime",
+            "icon": "https://seko.sensetime.com/favicon-32x32.png"
+          },{
+            "title": "白日梦",
+            "url": "https://aibrm.com/",
+            "desc": "白日梦",
+            "icon": "https://cdn.brmgo.cn/pc/assets-1763469471917/avatar.DZpK_wez.png"
+          },{
+            "title": "moki",
+            "url": "https://www.moki.cn/home",
+            "desc": "moki美图公司",
+            "icon": "https://www.moki.cn/_moki_static/_next/static/media/logo.50cbb962.svg"
+          },{
+            "title": "sensetime",
+            "url": "https://seko.sensetime.com/explore",
+            "desc": "sensetime",
+            "icon": "https://seko.sensetime.com/favicon-32x32.png"
+          },{
+            "title": "sensetime",
+            "url": "https://seko.sensetime.com/explore",
+            "desc": "sensetime",
+            "icon": "https://seko.sensetime.com/favicon-32x32.png"
+          },{
+            "title": "sensetime",
+            "url": "https://seko.sensetime.com/explore",
+            "desc": "sensetime",
+            "icon": "https://seko.sensetime.com/favicon-32x32.png"
+          }
+        ]
       }
     ]
   }

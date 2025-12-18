@@ -140,35 +140,6 @@
           }
         ]
       },
-       {
-        "category2": "小说热门工具",
-        "items": [
-          {
-            "title": "笔灵ai",
-            "url": "https://ibiling.cn/novel",
-            "desc": "笔灵ai 小说工具",
-            "icon": "https://ibiling.cn/favicon.ico"
-          },
-           {
-            "title": "喜马拉雅 写作精灵",
-            "url": "https://www.ximalaya.com/gatekeeper/write-wise",
-            "desc": "喜马拉雅 剪辑工具",
-            "icon": "https://s1.xmcdn.com/yx/write-wise/last/build/images/logo-main.png"
-          },
-          {
-            "title": "蛙蛙写作",
-            "url": "https://wawawriter.com/app/",
-            "desc": "蛙蛙写作 小说工具",
-            "icon": "https://wawawriter.com/app/assets/topbar-logo-Bi1FM5gf.svg"
-          },
-          {
-            "title": "星月写作",
-            "url": "https://xingyuexiezuo.com/#/",
-            "desc": "星月写作 小说工具",
-            "icon": "https://xingyuexiezuo.com/assets/logo-4508ce2f.jpeg"
-          }
-        ]
-      },
       {
         "category2": "去水印工具",
         "items": [
